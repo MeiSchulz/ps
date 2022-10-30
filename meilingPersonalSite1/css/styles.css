@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #3C4048;
+}
+
+/* First Div Images */
+.img-bull {
+    /* border-radius: 100%; */
+    height: 20%;
+    width: 20%;
+    left: 75%;
+    position: absolute;
+    opacity: 0.5;
+    }
+
+.img-integer {
+    /* border-radius: 10px; */
+    height: 50%;
+    width: 100%;
+    top: 140px;
+    right: .1px;
+    opacity: 0.9;
+    position: absolute;
+    }
+
+.img-bear {
+    /* border-radius: 100%; */
+    height: 20%;
+    width: 20%;
+    top: 90%;
+    left: 45px;
+    /* margin: 0950px 0 0; */
+    /* bottom: 100px; */
+    opacity: 0.5;
+    position: absolute;
+}
+
+
+
+/* First Div Content and h1 - h3 */
+h1 {
+    color: #F7C873;
+    font-family: 'Sacramento', cursive;
+    font-weight: bolder;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+h2 {
+    color: #3C4048;
+    font-family: 'Montserrat' sans-serif;
+}
+
+h3 {
+    color: #3C4048;
+    font-family: 'Montserrat' sans-serif;
+}
+
+.header-p {
+    color: #F7C873;
+    font-size: 1rem;
+    font-weight: normal;
+    position: relative;
+}
+.pro {
+    text-decoration: underline;
+}
+
+hr {
+    border: dotted #F7C873;
+    width: 4%;
+    border-bottom: none;
+    margin: 150px auto 30px auto;
+}
+
+/* Three Main Divs *****************************/
+
+/* Upper div  Section */
+#up-div-parent {
+    background-color: #000000;
+    height: 500px;
+    width: 100%;
+    margin-top: 0;
+    margin: auto;
+    padding-top: 50px;
+    position: relative;
+}
+
+.up-section-parent {
+    /* background-color: gold; */
+    height: 90%;
+    width: 100%;
+    top: 25px;
+    position: absolute;
+}
+
+.up-div-child-one {
+    /* background-color: green; */
+    height: 100%;
+    width: 100%;
+    /* top: 25px; */
+    position: absolute;
+}
+
+.up-div-child-two {
+    /* background-color: orange; */
+    height: 90%;
+    width: 100%;
+    top: 20px;
+    position: absolute;
+}
+
+
+
+
+
+/* Mid div Section */
+.mid-div-parent {
+    background-color: #F0F2EB;
+    height: 50%;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 50px;
+    position: relative;
+}
+
+
+/* Mid section images */
+.mei {
+    height: 30%;
+    width: 30%;
+/* margin: 0 auto 350px auto;
+    z-index: 2;
+    position: absolute; */
+}
+
+
+.realEstate {
+    height: 15%;
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.market {
+    height: 15%;
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row {
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.mid-p {
+    width: 55%;
+    margin: 20px auto 20px auto;
+    line-height: 2;
+}
+
+.contact-me {
+    width: 40%
+    margin: 40px auto 60px;
+}
+
+/* button */
+
+.btn {
+    background: #3C4048;
+    background-image: -webkit-linear-gradient(top, #706e70, #d1b200);
+    background-image: -moz-linear-gradient(top, #706e70, #d1b200);
+    background-image: -ms-linear-gradient(top, #706e70, #d1b200);
+    background-image: -o-linear-gradient(top, #706e70, #d1b200);
+    background-image: linear-gradient(to bottom, #706e70, #d1b200);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 100px auto;
+    }
+
+    .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+    }
+
+
+
+
+/* Low div Section*/
+.low-div {
+    background-color: #000000;
+    height: 15%;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 50px;
+    position: absolute;
+}
+
+.low-p {
+    width: 55%;
+    margin: 20px auto 20px auto;
+    line-height: 2;
+}
+
+.footer-link {
+    color: #F7C873;
+    padding: 0 15px 0 15px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #3C4048;
+}
+
+.last-p {
+    color: #F7C873;
+    font-size: .7rem;
+}
